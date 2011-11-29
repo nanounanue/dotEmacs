@@ -1,6 +1,17 @@
 ;; Cargamos el tema "tango-dark"
 (load-theme 'tango-dark)
 
+
+;; Fuente
+;; (set-face-font 'default "fixed")
+
+;; (set-face-attribute 'default nil :font "-dec-terminal-medium-r-normal-*-*-140-*-*-c-*-iso8859-1")
+
+(set-face-attribute 'default nil :family "Inconsolata" :height 100)
+
+
+
+
 ;; Railscast theme
 ;;(load-file "~/.emacs.d/nano/color-theme-railscasts.el")
 ;;(color-theme-railscasts)
